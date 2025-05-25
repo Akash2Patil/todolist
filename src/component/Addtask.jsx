@@ -8,7 +8,7 @@ const Addtask = () => {
     const handelSubmit = (e) => {
         e.preventDefault();
         const value = taskin.current.value;
-        settask([...task, value]);
+        value ? settask([...task, value]) : alert("Please enter the task"); // this avoid the blank task
         taskin.current.value = "";
     }
     console.log(task);
