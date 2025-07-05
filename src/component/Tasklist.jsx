@@ -8,7 +8,7 @@ const Tasklist = ({ tasks, settask }) => {
       return task.id === id ? { ...task, completed: !task.completed } : task
     });
     settask(updatedTasks)
-  }
+  };
 
   const handledelete = (id) => {
     const updatedtask = tasks.filter((task) => task.id !== id);
