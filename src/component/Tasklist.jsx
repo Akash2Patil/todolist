@@ -73,13 +73,13 @@ const Tasklist = ({ tasks, settask }) => {
                 <>
                   <button
                     onClick={handleSave}
-                    className="bg-green-500 text-white p-2 rounded mr-1"
+                    className="bg-green-500 text-white p-2 rounded mr-1 cursor-pointer"
                   >
                     Save
                   </button>
                   <button
                     onClick={handleCancel}
-                    className="bg-gray-400 text-white p-2 rounded"
+                    className="bg-gray-400 text-white p-2 rounded cursor-pointer"
                   >
                     Cancel
                   </button>
@@ -88,13 +88,13 @@ const Tasklist = ({ tasks, settask }) => {
                 <>
                   <button
                     onClick={() => handleEdit(task.id)}
-                    className="bg-blue-400 text-white p-2 rounded mr-1"
+                    className="bg-blue-400 text-white p-2 rounded mr-1 cursor-pointer"
                   >
                     Edit
                   </button>
                   <button
                     onClick={() => handleDelete(task.id)}
-                    className="bg-red-400 text-white p-2 rounded"
+                    className="bg-red-400 text-white p-2 rounded cursor-pointer"
                   >
                     Delete
                   </button>
