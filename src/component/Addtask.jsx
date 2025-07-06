@@ -30,7 +30,7 @@ const Addtask = () => {
 
   return (
     <>
-      <div className="border border-[#c7c6c6] rounded-lg w-1/3 p-5">
+      <div className="border border-[#c7c6c6] rounded-lg md:w-1/3 lg:w-[45%] p-5">
         <form onSubmit={handleSubmit} className="flex gap-3 justify-center">
           <input
             className="border p-3 w-full rounded-sm"
